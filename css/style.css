@@ -48,11 +48,10 @@ header {
 .left,
 .right {
     float: left;
-    width: 27%;
+    width: 25%;
     height: 500px;
     background-color: lightsteelblue;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0; 
 }
 
 .middle {
@@ -60,10 +59,9 @@ header {
     width: 40%;
     height: 500px;
     background-color: lightsteelblue;
-    margin: 0 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 5%;
 }
+
 
 /* footer */
 footer {
