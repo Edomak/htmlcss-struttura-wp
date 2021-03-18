@@ -7,9 +7,66 @@
     margin:0;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
+
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+}
+/* header */
+header {
+    height: 200px;
+    background-color: palevioletred;
+    margin-bottom: 25px;
+}
+
+.big-header {
+    height: 400px;
+    background-color: yellowgreen;
+}
+/* main */
+main.clearfix {
+    background-color: blue;
+    margin-top: 25px;
+}
+
+.top {
+    height: 100px;
+    background-color: lightsteelblue;
+}
+
+.left,.right {
+    float: left;
+    width: 27%;
+    height: 500px;
+    background-color: lightsteelblue;
+}
+
+.middle {
+    float: left;
+    width: 40%;
+    height: 500px;
+    background-color: lightsteelblue;
+    margin: 0 30px;
+}
+
+.left,
+.right,
+.middle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 100px;
+    background-color: violet;
+    margin-top: 25px;
+}
+
+
 
